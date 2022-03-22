@@ -1,0 +1,21 @@
+{
+  "name": "next-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:pipe": "nodemon -q --exec babel-node src/pipe.js --silent",
+    "start:records": "nodemon -q --exec babel-node src/records-tuples.js --silent"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/node": "^7.16.8",
+    "@babel/plugin-proposal-pipeline-operator": "^7.17.6",
+    "@babel/plugin-proposal-record-and-tuple": "^7.16.7",
+    "@babel/preset-env": "^7.16.11",
+    "@bloomberg/record-tuple-polyfill": "^0.0.4",
+    "nodemon": "^2.0.15"
+  }
+}
